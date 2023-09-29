@@ -36,3 +36,58 @@ input {
 img {
 	max-width: 300px;
 }
+
+
+#profile-card{
+	border: 5px black solid;
+	display: flexbox;
+}
+#title-profile{
+	display: flex;
+	justify-content: center;
+}
+/* make sure you change other image tags id  */
+#profile-img{
+	height: 200px;
+	border-radius: 200px;
+}
+#profile-contact{
+	display: flexbox;
+	position: relative;
+	text-align: center;
+	top: 30px;
+}
+
+#profile-left{
+	display: flex;
+	justify-content: space-evenly;
+	
+}
+
+#about{
+	display: flexbox;
+	width: 200px;
+}
+
+#skills{
+	display: flexbox;
+}
+
+#profile-right{
+	display: flex;
+	justify-content:space-evenly;
+
+}
+
+#footer{
+	display: flexbox;
+	text-align: center;
+	justify-content: space-evenly;
+
+}
+
+.techCompany{
+	color: brown;
+	font-size: x-large;
+	font-weight: 700;
+}
